@@ -3,93 +3,69 @@ A transistor-based implementation of a full adder with circuit diagrams, hardwar
 
 ---
 
-## 📖 Table of Contents
+###  Table of Contents
 - Project Overview
 - Objectives
-- Features
 - Components Used
 - Circuit Diagram
 - Breadboard Implementation
-- Working Principle
 - Truth Table
-- Testing Procedure
-- Results
 - Demonstration Video
-- Project Report
-- Future Improvements
-- References
 - Author
 
 ---
 
-## 📌 Project Overview
+###  Project Overview
 
-(Explain the project.)
+This project presents the design and implementation of a **1-bit Full Adder** using **NPN 2N2222 transistors** instead of conventional digital logic ICs. The primary objective was to understand the transistor-level realization of combinational logic by constructing the required logic gates and integrating them into a complete Full Adder circuit.
+
+The circuit was assembled and tested on a breadboard, and its functionality was verified for all possible input combinations. The experimental results confirmed that the Sum and Carry outputs matched the expected Full Adder truth table. This project provided practical experience in digital electronics, transistor switching, circuit troubleshooting, and hardware implementation.
+
+The repository includes the circuit schematic, breadboard implementation, project documentation, demonstration video, and test results to provide a complete reference for students and electronics enthusiasts interested in transistor-based digital circuit design.
 
 ---
 
-## 🎯 Objectives
+###  Objectives
 
 - Design a Full Adder using transistors.
 - Verify Sum and Carry outputs.
 - Understand transistor-level digital logic.
-
 ---
 
-## ✨ Features
-
-- Discrete transistor implementation
-- Breadboard tested
-- Practical verification
-- Documentation included
-
----
-
-## 🧰 Components Used
+### Components Used
 
 | Component | Quantity |
 |-----------|----------|
-| BC547 Transistor | ? |
-| Resistors | ? |
-| LEDs | ? |
-| Breadboard | 1 |
+| 2N2222 Transistor | 21 |
+| Resistors | 2k- 15 |
+| LEDs | 5 |
+| Breadboard | 3 - small |
 | 5V Power Supply | 1 |
+| push button | 3 |
 
 ---
 
-## 🖼 Circuit Diagram
+### Circuit Diagram
 
-(Insert image)
-
----
-
-## 📷 Breadboard Implementation
-
-(Add 4–5 photos)
+<img width="3941" height="1799" alt="20260729_005834" src="https://github.com/user-attachments/assets/3a24bd10-2298-443f-a204-997484001f9e" />
 
 ---
 
-## ⚙️ Working Principle
+###  Breadboard Implementation
 
-Explain how the AND, OR, and XOR logic are realized using transistors and combined to form the Full Adder.
+<img width="4080" height="1362" alt="breadboard connection 1" src="https://github.com/user-attachments/assets/482901ee-8d62-4d15-b6d6-82a348fbfb4a" />
+<img width="8160" height="4592" alt="breadboard connection 2" src="https://github.com/user-attachments/assets/17b516f2-b225-410d-a9bf-73725840ac8e" />
+<img width="4080" height="1731" alt="breadboard connection 4" src="https://github.com/user-attachments/assets/e1ac1c50-824a-41dc-ba95-124d9709186b" />
+<img width="4002" height="1187" alt="breadboard connection 3" src="https://github.com/user-attachments/assets/5873b1d4-28ab-4c17-895b-2545bbaebe2c" />
+
+
 
 ---
 
 ## 📊 Truth Table
 
-(Add truth table.)
 
----
-
-## 🧪 Testing Procedure
-
-Explain how you tested every input combination.
-
----
-
-## ✅ Results
-
-Discuss whether the outputs matched the expected truth table.
+<img width="1913" height="2571" alt="Logic gate diagram and Truth Table" src="https://github.com/user-attachments/assets/e6b9e0d1-bd25-4a36-9cc1-f27cebc2d710" />
 
 ---
 
@@ -97,31 +73,20 @@ Discuss whether the outputs matched the expected truth table.
 
 Watch on YouTube:
 
-(Link)
+Longer: https://youtu.be/YzJH70-gb8Q \
+Shorter: https://youtu.be/lBGjzCcLd7c
 
 ---
 
-## 📄 Project Report
+<!-- ## 📄 Project Report
 
 Download the report here:
 
 (Link to PDF)
 
 ---
+-->
 
-## 🚀 Future Improvements
-
-- PCB implementation
-- Reduced transistor count
-- 4-bit ripple carry adder
-
----
-
-## 📚 References
-
-List books, datasheets, or other sources.
-
----
 
 ## 👤 Author
 
